@@ -1,10 +1,11 @@
 # Meetups Network
 
-This is a mini-project of a website where the user can add new meetup items to the application, add some to their favorites and see them displayed at the main page of the application.  
-Meetup items are shown in the shapes of cards at the main page of the applicaion, which is the All Meetups page. These items are fetched from the custom API we built with the help of [Google's Firebase service](https://firebase.google.com/).  
-Each item has an 'Add to Favorites' button that is clicked in order to add the item to the favorites panel, which is the Favorites page. All items which are added to the favorites list are displayed at this page. The button then changes to 'Remove from Favorites' and is clicked in order to remove the item from favorites. A number badge is placed next to the button which directs us to the Favorites page, indicating the number of items which are added to favorites.  
-We have a Favorites page which - as we discussed - displays all the items that are added to favorites.  
-Then there is the New Meetup page. In this page we have a form which takes some information about a meetup item such as title and image url, and posts the information to the database in [Google's Firebase service](https://firebase.google.com/). This way we can beautifully add new meetups, then they are shown at the All Meetups page.
+This is a mini-project of a website where the user can add new meetup items to the application, add some to their favorites and see them displayed at the main page of the application.
+
+- Meetup items are shown in the shapes of cards at the main page of the applicaion, which is the All Meetups page. These items are fetched from the custom API we built with the help of [Google's Firebase service](https://firebase.google.com/).
+- Each item has an 'Add to Favorites' button that is clicked in order to add the item to the favorites panel, which is the Favorites page. All items which are added to the favorites list are displayed at this page. The button then changes to 'Remove from Favorites' and is clicked in order to remove the item from favorites. A number badge is placed next to the button which directs us to the Favorites page, indicating the number of items which are added to favorites.
+- We have a Favorites page which - as we discussed - displays all the items that are added to favorites.
+- Then there is the New Meetup page. In this page we have a form which takes some information about a meetup item such as title and image url, and posts the information to the database in [Google's Firebase service](https://firebase.google.com/). This way we can beautifully add new meetups, then they are shown at the All Meetups page.
 
 ## Initialization
 
